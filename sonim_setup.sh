@@ -48,10 +48,10 @@ fetch_and_install(){
 echo "Sonim XP3plus 5G Autoconfigure script"
 echo
 echo "DEVELOPER MODE SETUP INSTRUCTIONS"
-echo "1. Enable developer options by typing *#*#0701#*#* and click \"OPEN DIAG PROPERTY\""
+echo "1. From the main screen, press the *#*#0701#*#* keys and click the \"OPEN DIAG PROPERTY\" button"
 echo "2. Navigate to System Settings -> About phone -> Build number and click the entry 7 times"
 echo "3. Press the back button and select System -> Developer options and toggle \"Use developer options\" to ON"
-echo "4. Within developer options, scroll down to \"Debugging\" and toggle \"USB debugging\" to on"
+echo "4. Within developer options, scroll down to \"Debugging\" and toggle \"USB debugging\" to ON"
 echo "5. Connect the handset to your computer via the USB-C port"
 echo
 echo "Ensure that the Sonim handset is connected"
@@ -100,5 +100,5 @@ echo -e "Click the \"Add Repository\" button on the handset"
 
 # Post-install
 echo "Handset configured. Several post-install steps are required:"
-echo "- Open MATVT mouse and set bosskey to 107"
+echo "- Open MATVT mouse app and check \"Override Activation Key\", enter \"17\" and select \"SAVE\""
 
