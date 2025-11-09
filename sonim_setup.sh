@@ -61,7 +61,7 @@ echo -e "Zello (Sonim) \nDAVx5 (v4.5.3-ose) \nF-Droid (latest) \nAurora Store (v
 echo
 read -p "Continue? (Y/n): " continue
 
-if [[ "$continue" != "y" && "$choice" != "Y" ]]; then
+if [[ "$continue" != "y" && "$continue" != "Y" ]]; then
 	echo "Terminating"
 	exit 1
 fi
